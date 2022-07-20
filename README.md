@@ -10,7 +10,7 @@ This is a tool to help query compressed vcf files by the ID column. Originally, 
 - ids must be in a one-per-line format
 
 ## Example Usage
-\>\>\>java DB createDB targetFile.vcf.gz
+\>\>\>java DB createDB targetFile.vcf.gz \
 \>\>\>java DB query idList.txt targetFile.vcf.gz
 Outputs corresponding id lines if id is found in the field
 
