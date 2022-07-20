@@ -11,7 +11,7 @@ This is a tool to help query compressed vcf files by the ID column. Originally, 
 
 ## Example Usage
 \>\>\>java DB createDB targetFile.vcf.gz \
-\>\>\>java DB query idList.txt targetFile.vcf.gz
+\>\>\>java DB query idList.txt targetFile.vcf.gz \
 Outputs corresponding id lines if id is found in the field
 
 Example id file format: \
